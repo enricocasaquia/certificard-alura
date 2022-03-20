@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #FFDAB9 27.26%, #FFEFD5 96.03%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  margin: 60px;
+  border-radius: 40px;
+  box-shadow: 6px 6px 6px #4F4F4F;
+  padding: 60px;  
+}
+
+.titulo h1 {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  margin-left: 23px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align: center;
+}
+
+.foto {
+  border-radius: 220px;
+  max-height: 150px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://www.wallpapersin4k.org/wp-content/uploads/2017/04/Grey-City-Wallpaper.jpg");
+  margin-top: 30px;
+  padding: 200px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 4px #4F4F4F;
+}
+
+.projetos-titulo {
+  background: rgba(255,255,255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  margin: 40px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 50px;
+  color: #000000;
+    
+}
+
+.projetos-itens {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.projetos-itens a {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #696969 27.26%, #D3D3D3 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+.dark .tema button {
+  background: #333439;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7
+}
